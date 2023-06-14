@@ -3,6 +3,8 @@ body{
         padding-top: 70px;
         color:#97534;
 	background-image: url("anhneen.jpg");
+	background-repeat: norepeat;
+	
         
 }
 /* Style the form to a fixed width so the form looks the same
@@ -10,13 +12,14 @@ body{
 */
 form {
 	width 				: 50em;
+	background-color:#f2b8c6;
 }
 
 /* Style the labels and input by aligning all input fields 
 */
 label {
 	float 				: left;
-	text-align		: right;
+	text-align		: center;
 	width 				: 10em;
 	margin-right	: 1em;
 }
@@ -37,7 +40,7 @@ input {
 }
 .radioinput legend {
 	float 				: left;
-	text-align		: right;
+	text-align		: center;
 	width 				: 9em;		/* Not 10em as it is inside a fieldset */
 	margin-right	: 1em;
 }
