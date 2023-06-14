@@ -4,7 +4,7 @@ body{
         color:#97534;
 	background-image: url("anhneen.jpg") center/cover;
 	background-repeat: no-repeat;
-	
+	justify-content: center;
         
 }
 /* Style the form to a fixed width so the form looks the same
@@ -13,6 +13,7 @@ body{
 form {
 	width 				: 50em;
 	background-color:#f2b8c6;
+	
 }
 
 /* Style the labels and input by aligning all input fields 
