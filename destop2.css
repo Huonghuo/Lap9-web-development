@@ -1,0 +1,53 @@
+body{
+		font-family: Arial;
+        padding-top: 70px;
+        color:#97534;
+        background-color: #eabfb9;
+}
+form{
+        width : 40em;
+        background-color: #b86b77;
+        width: 60%;
+        margin-top: 20px;
+        font-size: 100%;
+        padding: 25px;
+		border-radius: 10px;
+}
+/* Style the labels and input by aligning all input fields*/
+label {
+float : left;
+text-align : right;
+width : 10em;
+margin-right : 1em;
+}
+input {
+width : 50%;
+}
+/* Style text input to have spacing between input fields*/
+.textinput {
+margin : 10px;
+}
+/* Style radio button input to a single line note that declarations are inherited*/
+.radioinput fieldset {
+border : none; /* (4) */
+} 
+.radioinput legend {
+float : left;
+text-align : right;
+width : 9em; /* Not 10em as it is inside a fieldset */
+margin-right : 1em;
+}
+.radioinput input {
+width : 2em; /* reset inherited value from 10em to 2em */
+} 
+.radioinput label {
+float : none; /* clears the inherited float left */
+text-align : left; /* reset inherited alignment to left */
+}
+/* Style button input note that declarations are inherited */
+.buttoninput {
+text-align : right;
+} 
+.buttoninput input {
+width : auto;
+}
