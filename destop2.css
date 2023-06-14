@@ -2,7 +2,7 @@ body{
 	font-family: Arial;
         padding-top: 70px;
         color:#97534;
-	background-image: url("anhneen.jpg");
+	background-image: url("anhneen.jpg") center/cover;
 	background-repeat: no-repeat;
 	
         
