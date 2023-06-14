@@ -11,6 +11,8 @@ form {
 	width 				: 50em;
 	background-color:#f2b8c6;
 	margin-left: 10px;
+	border-radius:4px;
+	text-align:center;
 }
 
 /* Style the labels and input by aligning all input fields 
@@ -42,7 +44,7 @@ input {
 }
 .radioinput legend {
 	float 				: left;
-	text-align		: center;
+	text-align		: right;
 	width 				: 9em;		/* Not 10em as it is inside a fieldset */
 	margin-right	: 1em;
 	margin-left: 10px;
@@ -53,7 +55,7 @@ input {
 }
 .radioinput label  {
 	float 				: none;		/* clears the inherited float left */
-	text-align		: left;		/* reset inherited alignment to left */
+	text-align		: right;		/* reset inherited alignment to left */
 	margin-left: 10px;
 }
 
