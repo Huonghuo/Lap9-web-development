@@ -1,8 +1,9 @@
 body{
-		font-family: Arial;
+	font-family: Arial;
         padding-top: 70px;
         color:#97534;
-        background-color: #eabfb9;
+	background-image: url("anhneen.jpg");
+        
 }
 /* Style the form to a fixed width so the form looks the same
 	 even if the browser window is resize
