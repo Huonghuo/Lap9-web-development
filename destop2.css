@@ -2,10 +2,7 @@ body{
 	font-family: Arial;
         padding-top: 70px;
         color:#97534;
-	background-image: url("nen.jpg");
-	background-repeat: no-repeat;
-	justify-content: center;
-        
+	background-image: url("nen.jpg");       
 }
 /* Style the form to a fixed width so the form looks the same
 	 even if the browser window is resize
@@ -13,7 +10,7 @@ body{
 form {
 	width 				: 50em;
 	background-color:#f2b8c6;
-	
+	margin-left: 10px;
 }
 
 /* Style the labels and input by aligning all input fields 
@@ -23,20 +20,24 @@ label {
 	text-align		: center;
 	width 				: 10em;
 	margin-right	: 1em;
+	margin-left: 10px;
 }
 input {
 	width 				: 50%;
+	margin-left: 10px;
 }
 
 /* Style text input to have spacing between input fields
 */
 .textinput {
 	margin				: 10px;
+	margin-left: 10px;
 }
 /* Style radio button input to a single line
 	 note that declarations are inherited 
 */
 .radioinput fieldset {
+	margin-left: 10px;
 	border				: none;		/* The legend will be in the box */
 }
 .radioinput legend {
@@ -44,13 +45,16 @@ input {
 	text-align		: center;
 	width 				: 9em;		/* Not 10em as it is inside a fieldset */
 	margin-right	: 1em;
+	margin-left: 10px;
 }
 .radioinput input  {
+	margin-left: 10px;
 	width				: 2em;		/* reset inherited value from 10em to 2em */
 }
 .radioinput label  {
 	float 				: none;		/* clears the inherited float left */
 	text-align		: left;		/* reset inherited alignment to left */
+	margin-left: 10px;
 }
 
 /* Style  button input 
@@ -58,7 +62,9 @@ input {
 */
 .buttoninput {
 	text-align 		: center;
+	margin-left: 10px;
 }
 .buttoninput input {
 	width				: auto;
+	margin-left: 10px;
 }
